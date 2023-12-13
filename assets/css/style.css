@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gehirn {
+    display: flex;
+    gap: 1rem;
+}
+
+.gehirn div {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.submit {
+    padding: 0 1rem;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: pink;
+}
+
+.submit:hover {
+    background-color: pink;
+    border: 1px solid gray;
+    color: blueviolet;
+}
