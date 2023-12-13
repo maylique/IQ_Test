@@ -15,9 +15,11 @@ body {
 section {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background: linear-gradient(to top right, pink, magenta);
     padding: 2rem;
     gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px purple;
 }
 
 form {
@@ -47,4 +49,10 @@ form {
     background-color: pink;
     border: 1px solid gray;
     color: blueviolet;
+}
+
+.bla {
+    display: flex;
+    gap: 1rem;
+
 }
